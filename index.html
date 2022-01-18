@@ -25,6 +25,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js">
     </script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
 
     <style>
         * {
@@ -99,7 +107,10 @@
                     <a href="#skills" class="nav-link p-3"> SKILLS</a>
                 </li>
                 <li class="nav-item ">
-                    <a href="#Portfolio" class="nav-link p-3">PORTFOLIO</a>
+                    <a href="#portfolio1" class="nav-link p-3">PORTFOLIO</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="events.html" class="nav-link p-3">EVENTS</a>
                 </li>
                 <li class="nav-item ">
                     <a href="#contact" class="nav-link p-3">CONTACT</a>
@@ -189,160 +200,67 @@
 
 
 
-    <section id="Portfolio" class="content">
+    <section id="portfolio1" class="content">
 
-        <div class="container portfolio_title">
 
-            <div class="section-title">
-                <h2>Portfolio</h2>
-                <h6>Let's take a look at some of our best collection.</h6>
+        <div class="container">
+            <h1 class="htext">Portfolio</h1>
 
-            </div>
-
-        </div>
-
-        <div class="portfolio-top"></div>
-
-        <div class="portfolio">
-
-            <div id="filters" class="sixteen columns">
-                <ul class="clearfix">
-                    <li>
-                        <a id="all" href="#" data-filter="*" class="active">
-                            <h5>All</h5>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="" href="#" data-filter=".nature">
-                            <h5>Landscap</h5>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="" href="#" data-filter=".wildlife">
-                            <h5>Events</h5>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="" href="#" data-filter=".citylife">
-                            <h5>Wildlife</h5>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="" href="#" data-filter=".animals">
-                            <h5>Potrait</h5>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="container-fluid pl-lg-3 ml-3 ml-lg-0 ml-md-5 mb-5">
-                <div class="fadeInLeft animated wow grid " id="portfolio_wrapper">
-                    <!-- portfolio-->
-                    <figure style="  top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); opacity: 1;" class=" portfolio-item one-four   animals isotope-item effect-oscar col-md-6 center">
-
-                        <div class="portfolio_img ">
-                            <img src="img/kirill-balobanov-Ef3AOkt6hHg-unsplash.jpg" alt="Portfolio 1" width="100px"> </div>
-                        <figcaption>
-                            <div class="decoration">
-                                <a href="img/kirill-balobanov-Ef3AOkt6hHg-unsplash.jpg" class="fancybox">
-                                    <h2>Portrait <span>Shoot</span></h2>
-                                </a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <!-- night -->
-                    <figure style="  top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1);  opacity: 1;" class="portfolio-item one-four  wildlife isotope-item effect-oscar ">
-                        <div class="portfolio_img"> <img src="img/alexander-popov-hTv8aaPziOQ-unsplash.jpg" alt="Portfolio 1" width="100px"> </div>
-                        <figcaption>
-                            <div class="decoration">
-                                <a href="img/alexander-popov-hTv8aaPziOQ-unsplash.jpg" class="fancybox">
-                                    <h2>Night <span>Shoot</span></h2>
-                                </a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <!-- dance -->
-                    <figure style=" top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1);  opacity: 1;" class="portfolio-item one-four  wildlife  isotope-item effect-oscar ">
-                        <div class="portfolio_img"> <img src="img/pavan-gupta-_HzlOHmboSk-unsplash.jpg" alt="Portfolio 1" width="100px"> </div>
-                        <figcaption>
-                            <div class="decoration">
-                                <a href="img/pavan-gupta-_HzlOHmboSk-unsplash.jpg" class="fancybox">
-                                    <h2>Event <span>shoot</span></h2>
-                                </a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <!-- land -->
-                    <figure style=" top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1);  opacity: 1;" class="portfolio-item one-four  citylife  nature web isotope-item effect-oscar ">
-                        <div class="portfolio_img"> <img src="img/laura-smetsers-H-TW2CoNtTk-unsplash.jpg" alt="Portfolio 1" width="100px"> </div>
-                        <figcaption>
-                            <div class="decoration">
-                                <a href="img/laura-smetsers-H-TW2CoNtTk-unsplash.jpg" class="fancybox">
-                                    <h2>landSCAP <span>shoot</span></h2>
-                                </a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <!-- wedding -->
-                    <figure style=" top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1);  opacity: 1;" class="portfolio-item one-four  wildlife isotope-item effect-oscar ">
-                        <div class="portfolio_img"> <img src="img/sabesh-photography-R0fRnLeQXOI-unsplash.jpg" alt="Portfolio 1" width="100px"> </div>
-                        <figcaption>
-                            <div class="decoration">
-                                <a href="img/sabesh-photography-R0fRnLeQXOI-unsplash.jpg" class="fancybox">
-                                    <h2>wedding <span>shoot</span></h2>
-                                </a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <!-- wildlife -->
-                    <figure style="top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 237px; opacity: 1;" class="portfolio-item one-four  web isotope-item effect-oscar">
-                        <div class="portfolio_img"> <img src="img/philipp-deus-u769s7-g8h4-unsplash (1).jpg" alt="Portfolio 1" width="100px"> </div>
-                        <figcaption>
-                            <div class="decoration">
-                                <a href="img/philipp-deus-u769s7-g8h4-unsplash (1).jpg" class="fancybox">
-                                    <h2>wildlife <span>shoot</span></h2>
-                                </a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <!-- bdy-->
-                    <figure style=" top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife web isotope-item effect-oscar">
-                        <div class="portfolio_img"> <img src="img/jorge-ibanez-cK6ixOQx1fI-unsplash.jpg" alt="Portfolio 1"> </div>
-                        <figcaption>
-                            <div class="decoration">
-                                <a href="img/jorge-ibanez-cK6ixOQx1fI-unsplash.jpg" class="fancybox">
-                                    <h2>b-day <span>shoot</span></h2>
-                                </a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <!-- forest-->
-                    <figure style=" top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   citylife isotope-item effect-oscar">
-                        <div class="portfolio_img"> <img src="img/dawid-zawila--G3rw6Y02D0-unsplash.jpg" alt="Portfolio 1"> </div>
-                        <figcaption>
-                            <div class="decoration">
-                                <a href="img/dawid-zawila--G3rw6Y02D0-unsplash.jpg" class="fancybox">
-                                    <h2>forest <span>shoot</span></h2>
-                                </a>
-                            </div>
-                        </figcaption>
-                    </figure>
-
+            <div class="row">
+                <div class="col-lg-12 text-center my-2">
+                    <h4>Let's take a look at some of our best collection.</h4>
                 </div>
             </div>
-        </div>
-        </div>
-
-        </div>
-
-        <div class="portfolio_btm "></div>
-
-
-
-        <div id="project_container ">
-            <div class="clear "></div>
-            <div id="project_data "></div>
-        </div>
-
+            <div class="portfolio-menu1 mt-2 mb-4">
+                <ul>
+                    <li class="btn btn-outline-dark active" data-filter="*">All</li>
+                    <li class="btn btn-outline-dark" data-filter=".gts">Nature</li>
+                    <li class="btn btn-outline-dark" data-filter=".lap">Events</li>
+                    <li class="btn btn-outline-dark text" data-filter=".selfie">Portait</li>
+                </ul>
+            </div>
+            <div class="portfolio-item1 row">
+                <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                    <a href="img/ilyuza-mingazova-rlrtf2X08CI-unsplash.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                        <img class="img-fluid" src="img/ilyuza-mingazova-rlrtf2X08CI-unsplash.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+                    <a href="img/laura-smetsers-H-TW2CoNtTk-unsplash.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                        <img class="img-fluid" src="img/laura-smetsers-H-TW2CoNtTk-unsplash.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                    <a href="img/kirill-balobanov-Ef3AOkt6hHg-unsplash.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                        <img class="img-fluid" src="img/kirill-balobanov-Ef3AOkt6hHg-unsplash.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+                    <a href="img/wildy.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                        <img class="img-fluid" src="img/wildy.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+                    <a href="img/philipp-deus-u769s7-g8h4-unsplash (1).jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                        <img class="img-fluid" src="img/philipp-deus-u769s7-g8h4-unsplash (1).jpg" alt="">
+                    </a>
+                </div>
+                <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+                    <a href="img/dawid-zawila--G3rw6Y02D0-unsplash.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                        <img class="img-fluid" src="img/dawid-zawila--G3rw6Y02D0-unsplash.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+                    <a href="img/alexander-popov-hTv8aaPziOQ-unsplash.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                        <img class="img-fluid" src="img/alexander-popov-hTv8aaPziOQ-unsplash.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+                    <a href="img/parrty.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                        <img class="img-fluid" src="img/parrty.jpg" alt="">
+                    </a>
+                </div>
+            </div>
     </section>
 
 
@@ -396,13 +314,14 @@
             </section>
         </div>
         <div class="container ">
-            <div class="footer_bottom "><span>All Rights Reserved. <a href="https://webthemez.com/tag/free " target="_blank "></a>Made by Gauri, Radha, Pranali. </span> </div>
+            <div class="footer_bottom "><span>All Rights Reserved. <a href="https://webthemez.com/tag/free " target="_blank "></a>&copy; Made by Gauri. </span> </div>
         </div>
     </footer>
 
 
     </div>
 
+    <script src="script.js"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -432,5 +351,7 @@
 </body>
 
 
+
+</html>
 
 </html>
